@@ -19,9 +19,9 @@ export default function Home({ data }) {
           </Link>
         </div>
         <img src="/banner.png" alt="site banner" style={{ maxWidth: "100%" }} />
-        <p>
+        {/* <p>
           {title}, {description}
-        </p>
+        </p> */}
       </section>
     </Layout>
   )
