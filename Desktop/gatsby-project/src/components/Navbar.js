@@ -5,6 +5,7 @@ function Navbar() {
   // możemy usunąć query TitleInfo i też będzie działać, ale ma to znaczenie przy query variables,
   // przy używaniu hooka useStaticQuery dobrze jest nazywać komponenty z dużej litery ponieważ czasem potrafi wystąpić error
   // ten hook może być użyty tylko raz w komponencie
+
   const data = useStaticQuery(graphql`
     query TitleInfo {
       site {
