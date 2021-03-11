@@ -31,5 +31,6 @@ module.exports = {
     title: "You Go Girl",
     description: "my first blog",
     copyright: "This website is copyright 2021 you-go-girl",
+    contact: "me@yougogirl.pl",
   },
 }
