@@ -1,7 +1,9 @@
 import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
-import { header, btn } from "../styles/home.module.css"
+// import { header, btn } from "../styles/home.module.css"
+// można zaimportować style na dwa sposoby albo z destrukturyzacją albo jako import as styles
+import * as styles from "../styles/home.module.css"
 import Img from "gatsby-image"
 // import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
@@ -11,12 +13,12 @@ export default function Home({ data }) {
   // const { description, title } = data.site.siteMetadata
   return (
     <Layout>
-      <section className={header}>
+      <section className={styles.header}>
         <div>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
           <p>UX designer</p>
-          <Link className={btn} to="/projects">
+          <Link className={styles.btn} to="/projects">
             My Portfolio Projects
           </Link>
         </div>

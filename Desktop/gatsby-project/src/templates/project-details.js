@@ -1,15 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
-import styles from "../styles/project-details.module.css"
+import { details, featured, html } from "../styles/project-details.module.css"
 
 function ProjectDetails() {
   return (
     <Layout>
-      <div className={styles.details}>
+      <div className={details}>
         <h2>title</h2>
         <h3>stack</h3>
-        <div className={styles.featured}>{/* <Img fluid={} /> */}</div>
+        <div className={featured}>{/* <Img fluid={} /> */}</div>
         {/* <div className={styles.html} dangerouslySetInnerHTML={} /> */}
       </div>
     </Layout>
