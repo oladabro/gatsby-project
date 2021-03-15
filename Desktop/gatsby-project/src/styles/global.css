@@ -14,8 +14,10 @@ body {
 body {
   background: radial-gradient(
     at top left,
-    rgba(146, 43, 225, 1) 0%,
-    rgba(43, 9, 107, 1) 100%
+    /* rgba(146, 43, 225, 1) 0%,
+    rgba(43, 9, 107, 1) 100%, */ rgb(40, 9, 175)
+      0%,
+    rgb(4, 0, 53) 100%
   );
   background-repeat: no-repeat;
 }
