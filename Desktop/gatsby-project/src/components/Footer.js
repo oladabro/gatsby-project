@@ -1,9 +1,21 @@
 import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 
 function Footer() {
+  const data = useStaticQuery(graphql`
+    query CopyrightInfo {
+      site {
+        siteMetadata {
+          copyright
+        }
+      }
+    }
+  `)
+
+  const { copyright } = data.site.siteMetadata
   return (
     <footer>
-      <p>Copyright 2021 You Go Girl</p>
+      <p>{copyright}</p>
     </footer>
   )
 }

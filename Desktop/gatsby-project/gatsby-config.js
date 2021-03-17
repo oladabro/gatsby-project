@@ -38,9 +38,9 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "You Go Girl",
+    title: "Happy Girl",
     description: "my first blog",
-    copyright: "This website is copyright 2021 you-go-girl",
-    contact: "me@yougogirl.pl",
+    copyright: "This website is copyright 2021 Happy Girl",
+    contact: "me@happygirl.pl",
   },
 }
